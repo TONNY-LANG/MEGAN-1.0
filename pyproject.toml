@@ -1,0 +1,27 @@
+[project]
+name = "megan"
+version = "1.0.0-alpha"
+description = "MEGAN Engine - Sovereign Financial Operating System"
+authors = [{ name = "TONNY-LANG", email = "skelterh72@gmail.com" }]
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "Proprietary" }
+
+dependencies = [
+    # Add your core dependencies here
+]
+
+[tool.setuptools]
+packages = ["megan"]
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "ruff",
+    "pytest",
+    "mypy",
+]
+security = [
+    "bandit",
+    "safety",
+]

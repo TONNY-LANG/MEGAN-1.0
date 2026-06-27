@@ -1,0 +1,8 @@
+# MEGAN Core Dependencies
+# Add production packages here
+
+# Example (uncomment as needed):
+# fastapi>=0.115.0
+# uvicorn[standard]
+# pydantic>=2.0
+# sqlalchemy
